@@ -22,6 +22,26 @@ class CallbackAasDataBankcardlivenessRequest extends Model {
         'secondDeductionAmount' => 'second_deduction_amount',
         'thirdDeduction' => 'third_deduction',
         'thirdDeductionAmount' => 'third_deduction_amount',
+        'fourthDeduction' => 'fourth_deduction',
+        'fourthDeductionAmount' => 'fourth_deduction_amount',
+        'fifthDeduction' => 'fifth_deduction',
+        'fifthDeductionAmount' => 'fifth_deduction_amount',
+        'sixthDeduction' => 'sixth_deduction',
+        'sixthDeductionAmount' => 'sixth_deduction_amount',
+        'seventhDeduction' => 'seventh_deduction',
+        'seventhDeductionAmount' => 'seventh_deduction_amount',
+        'eighthDeduction' => 'eighth_deduction',
+        'eighthDeductionAmount' => 'eighth_deduction_amount',
+        'ninthDeduction' => 'ninth_deduction',
+        'ninthDeductionAmount' => 'ninth_deduction_amount',
+        'tenthDeduction' => 'tenth_deduction',
+        'tenthDeductionAmount' => 'tenth_deduction_amount',
+        'eleventhDeduction' => 'eleventh_deduction',
+        'eleventhDeductionAmount' => 'eleventh_deduction_amount',
+        'twelfthDeduction' => 'twelfth_deduction',
+        'twelfthDeductionAmount' => 'twelfth_deduction_amount',
+        'thirteenthDeduction' => 'thirteenth_deduction',
+        'thirteenthDeductionAmount' => 'thirteenth_deduction_amount',
         'extInfo' => 'ext_info',
     ];
     public function validate() {
@@ -79,6 +99,66 @@ class CallbackAasDataBankcardlivenessRequest extends Model {
         if (null !== $this->thirdDeductionAmount) {
             $res['third_deduction_amount'] = $this->thirdDeductionAmount;
         }
+        if (null !== $this->fourthDeduction) {
+            $res['fourth_deduction'] = $this->fourthDeduction;
+        }
+        if (null !== $this->fourthDeductionAmount) {
+            $res['fourth_deduction_amount'] = $this->fourthDeductionAmount;
+        }
+        if (null !== $this->fifthDeduction) {
+            $res['fifth_deduction'] = $this->fifthDeduction;
+        }
+        if (null !== $this->fifthDeductionAmount) {
+            $res['fifth_deduction_amount'] = $this->fifthDeductionAmount;
+        }
+        if (null !== $this->sixthDeduction) {
+            $res['sixth_deduction'] = $this->sixthDeduction;
+        }
+        if (null !== $this->sixthDeductionAmount) {
+            $res['sixth_deduction_amount'] = $this->sixthDeductionAmount;
+        }
+        if (null !== $this->seventhDeduction) {
+            $res['seventh_deduction'] = $this->seventhDeduction;
+        }
+        if (null !== $this->seventhDeductionAmount) {
+            $res['seventh_deduction_amount'] = $this->seventhDeductionAmount;
+        }
+        if (null !== $this->eighthDeduction) {
+            $res['eighth_deduction'] = $this->eighthDeduction;
+        }
+        if (null !== $this->eighthDeductionAmount) {
+            $res['eighth_deduction_amount'] = $this->eighthDeductionAmount;
+        }
+        if (null !== $this->ninthDeduction) {
+            $res['ninth_deduction'] = $this->ninthDeduction;
+        }
+        if (null !== $this->ninthDeductionAmount) {
+            $res['ninth_deduction_amount'] = $this->ninthDeductionAmount;
+        }
+        if (null !== $this->tenthDeduction) {
+            $res['tenth_deduction'] = $this->tenthDeduction;
+        }
+        if (null !== $this->tenthDeductionAmount) {
+            $res['tenth_deduction_amount'] = $this->tenthDeductionAmount;
+        }
+        if (null !== $this->eleventhDeduction) {
+            $res['eleventh_deduction'] = $this->eleventhDeduction;
+        }
+        if (null !== $this->eleventhDeductionAmount) {
+            $res['eleventh_deduction_amount'] = $this->eleventhDeductionAmount;
+        }
+        if (null !== $this->twelfthDeduction) {
+            $res['twelfth_deduction'] = $this->twelfthDeduction;
+        }
+        if (null !== $this->twelfthDeductionAmount) {
+            $res['twelfth_deduction_amount'] = $this->twelfthDeductionAmount;
+        }
+        if (null !== $this->thirteenthDeduction) {
+            $res['thirteenth_deduction'] = $this->thirteenthDeduction;
+        }
+        if (null !== $this->thirteenthDeductionAmount) {
+            $res['thirteenth_deduction_amount'] = $this->thirteenthDeductionAmount;
+        }
         if (null !== $this->extInfo) {
             $res['ext_info'] = $this->extInfo;
         }
@@ -134,6 +214,66 @@ class CallbackAasDataBankcardlivenessRequest extends Model {
         }
         if(isset($map['third_deduction_amount'])){
             $model->thirdDeductionAmount = $map['third_deduction_amount'];
+        }
+        if(isset($map['fourth_deduction'])){
+            $model->fourthDeduction = $map['fourth_deduction'];
+        }
+        if(isset($map['fourth_deduction_amount'])){
+            $model->fourthDeductionAmount = $map['fourth_deduction_amount'];
+        }
+        if(isset($map['fifth_deduction'])){
+            $model->fifthDeduction = $map['fifth_deduction'];
+        }
+        if(isset($map['fifth_deduction_amount'])){
+            $model->fifthDeductionAmount = $map['fifth_deduction_amount'];
+        }
+        if(isset($map['sixth_deduction'])){
+            $model->sixthDeduction = $map['sixth_deduction'];
+        }
+        if(isset($map['sixth_deduction_amount'])){
+            $model->sixthDeductionAmount = $map['sixth_deduction_amount'];
+        }
+        if(isset($map['seventh_deduction'])){
+            $model->seventhDeduction = $map['seventh_deduction'];
+        }
+        if(isset($map['seventh_deduction_amount'])){
+            $model->seventhDeductionAmount = $map['seventh_deduction_amount'];
+        }
+        if(isset($map['eighth_deduction'])){
+            $model->eighthDeduction = $map['eighth_deduction'];
+        }
+        if(isset($map['eighth_deduction_amount'])){
+            $model->eighthDeductionAmount = $map['eighth_deduction_amount'];
+        }
+        if(isset($map['ninth_deduction'])){
+            $model->ninthDeduction = $map['ninth_deduction'];
+        }
+        if(isset($map['ninth_deduction_amount'])){
+            $model->ninthDeductionAmount = $map['ninth_deduction_amount'];
+        }
+        if(isset($map['tenth_deduction'])){
+            $model->tenthDeduction = $map['tenth_deduction'];
+        }
+        if(isset($map['tenth_deduction_amount'])){
+            $model->tenthDeductionAmount = $map['tenth_deduction_amount'];
+        }
+        if(isset($map['eleventh_deduction'])){
+            $model->eleventhDeduction = $map['eleventh_deduction'];
+        }
+        if(isset($map['eleventh_deduction_amount'])){
+            $model->eleventhDeductionAmount = $map['eleventh_deduction_amount'];
+        }
+        if(isset($map['twelfth_deduction'])){
+            $model->twelfthDeduction = $map['twelfth_deduction'];
+        }
+        if(isset($map['twelfth_deduction_amount'])){
+            $model->twelfthDeductionAmount = $map['twelfth_deduction_amount'];
+        }
+        if(isset($map['thirteenth_deduction'])){
+            $model->thirteenthDeduction = $map['thirteenth_deduction'];
+        }
+        if(isset($map['thirteenth_deduction_amount'])){
+            $model->thirteenthDeductionAmount = $map['thirteenth_deduction_amount'];
         }
         if(isset($map['ext_info'])){
             $model->extInfo = $map['ext_info'];
@@ -229,6 +369,126 @@ class CallbackAasDataBankcardlivenessRequest extends Model {
      * @var string
      */
     public $thirdDeductionAmount;
+
+    // 第四期是否扣款成功
+    /**
+     * @var bool
+     */
+    public $fourthDeduction;
+
+    // 第四期扣款金额
+    /**
+     * @var string
+     */
+    public $fourthDeductionAmount;
+
+    // 第五期是否扣款成功
+    /**
+     * @var bool
+     */
+    public $fifthDeduction;
+
+    // 第五期扣款成功金额
+    /**
+     * @var string
+     */
+    public $fifthDeductionAmount;
+
+    // 第六期是否扣款成功
+    /**
+     * @var bool
+     */
+    public $sixthDeduction;
+
+    // 第六期扣款金额
+    /**
+     * @var string
+     */
+    public $sixthDeductionAmount;
+
+    // 第七期是否扣款成功
+    /**
+     * @var bool
+     */
+    public $seventhDeduction;
+
+    // 第七期扣款金额
+    /**
+     * @var string
+     */
+    public $seventhDeductionAmount;
+
+    // 第八期是否扣款成功
+    /**
+     * @var bool
+     */
+    public $eighthDeduction;
+
+    // 第八期扣款金额
+    /**
+     * @var string
+     */
+    public $eighthDeductionAmount;
+
+    // 第九期是否扣款成功
+    /**
+     * @var bool
+     */
+    public $ninthDeduction;
+
+    // 第九期扣款金额
+    /**
+     * @var string
+     */
+    public $ninthDeductionAmount;
+
+    // 第十期是否扣款成功
+    /**
+     * @var bool
+     */
+    public $tenthDeduction;
+
+    // 第十期扣款金额
+    /**
+     * @var string
+     */
+    public $tenthDeductionAmount;
+
+    // 第十一期是否扣款成功
+    /**
+     * @var bool
+     */
+    public $eleventhDeduction;
+
+    // 第十一期扣款金额
+    /**
+     * @var string
+     */
+    public $eleventhDeductionAmount;
+
+    // 第十二期是否扣款成功
+    /**
+     * @var bool
+     */
+    public $twelfthDeduction;
+
+    // 第十二期扣款金额
+    /**
+     * @var string
+     */
+    public $twelfthDeductionAmount;
+
+    // 第十三期是否扣款成功
+    /**
+     * @var bool
+     */
+    public $thirteenthDeduction;
+
+    // 第十三期扣款金额
+    /**
+     * @var string
+     */
+    public $thirteenthDeductionAmount;
 
     // 扩展信息
     /**
